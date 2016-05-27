@@ -2,5 +2,10 @@
   shell: service apache2 status
   changed_when: false
 
+- name: fetch webpage locally (localhost)
+  shell: wget http://localhost/
+  changed_when: false
 
-
+- name: fetch webpage locally (using ip)
+  shell: "wget http://{{ ansible_default_ipv4.address }}/"  
+  changed_when: false
