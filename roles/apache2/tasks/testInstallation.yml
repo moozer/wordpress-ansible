@@ -1,0 +1,6 @@
+- name: test that webserver service is running
+  shell: service apache2 status
+  changed_when: false
+
+
+

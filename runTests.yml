@@ -1,0 +1,8 @@
+- hosts: webserver
+  user: vagrant
+  become: yes
+  
+  tasks:
+  - name: webserver tests
+    include: roles/apache2/tasks/testInstallation.yml
+    
