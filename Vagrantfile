@@ -9,6 +9,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     libvirt.memory = 1024
   end
 
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+
 # no virtualbox specific stuff
 #  config.vm.provider :virtualbox do |virtualbox|
 #  end
