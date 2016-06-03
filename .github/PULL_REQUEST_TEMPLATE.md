@@ -2,11 +2,11 @@ Please pull
 --------------
 
 I have
-- [] written a short description
-- [] included the issue number (if applicable)
-- [] it tested on a different system by a different person
-- [] updated the readme.md to reflect any relevant changes 
-- [] included tests (either a description or automated) to verify that the new feautres are working.
+- [ ] written a short description
+- [ ] included the issue number (if applicable)
+- [ ] it tested on a different system by a different person
+- [ ] updated the readme.md to reflect any relevant changes 
+- [ ] included tests (either a description or automated) to verify that the new feautres are working.
 
 ### What is this?
 
